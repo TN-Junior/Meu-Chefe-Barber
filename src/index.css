@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+  padding-bottom: 60px; /* Add padding for fixed footer */
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+section h2 {
+  color: #333;
+}
+
+section p, section ul {
+  color: #666;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 10px;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+
+  section p, section ul {
+    font-size: 16px;
+  }
+
+  .gallery-images img {
+    width: 100px;
+    height: 100px;
+  }
+}
